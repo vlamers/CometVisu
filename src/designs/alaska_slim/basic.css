@@ -184,7 +184,7 @@ div#top {
 .ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; }
 
 .ui-slider-horizontal { height: .8em; }
-.ui-slider-horizontal .ui-slider-handle { top: -.5em; margin-left: -.8em; }
+.ui-slider-horizontal .ui-slider-handle { top: -.5em; }
 .ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }
 .ui-slider-horizontal .ui-slider-range-min { left: 0; }
 .ui-slider-horizontal .ui-slider-range-max { right: 0; }
@@ -297,6 +297,16 @@ div#loading
   background: transparent;
 }
 
+.popup_close {
+  position: absolute;
+  z-index: 102;
+  right: 1em;
+  top: -0.8em;
+  width: 1.2em;
+  text-align: center;
+  -moz-border-radius: .5em; -webkit-border-radius: .5em; border-radius: .5em;
+  cursor: default;
+}
 
 .popup_background 
 {

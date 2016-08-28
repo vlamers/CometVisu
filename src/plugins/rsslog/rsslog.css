@@ -21,7 +21,7 @@
 
 .rsslogBody {
   clear: left;
-  width:100%;
+  /* width:100%; CM: why was this needed? */
 }
 
 .rsslogeven  {
@@ -41,11 +41,19 @@
 }
 
 .rsslog_separator {
-  border-top-style: dotted;
+  border-top-style: double;
   border-color: #DDDDDD;
 }
 
 .rsslog_prevday {
   opacity: .5;
   filter: alpha(opacity=50);
+}
+
+.rsslog_futureodd {
+  color: #ff9300;
+}
+
+.rsslog_futureeven {
+  color: #cc7600;
 }

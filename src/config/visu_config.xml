@@ -49,6 +49,7 @@
     <statusbar>
       <status type="html"><![CDATA[
           <img src="icon/comet_64_ff8000.png" alt="CometVisu" /> by <a href="http://www.cometvisu.org/">CometVisu.org</a>
+          - <a href="manager.php">Config-Manager</a>
           - <a href=".?forceReload=true">Reload</a>
         ]]></status>
       <status type="html" condition="!edit" hrefextend="config"><![CDATA[
@@ -66,10 +67,14 @@
     </statusbar>
   </meta>
   <page name="Start">
-    <line/>
+    <line>
+      <layout colspan="12"/>
+    </line>
     <text align="center">
       <label>Welcome to the CometVisu!</label>
     </text>
-    <line/>
+    <line>
+      <layout colspan="12"/>
+    </line>
   </page>
 </pages>
